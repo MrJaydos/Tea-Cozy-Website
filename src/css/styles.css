@@ -2,12 +2,19 @@
 
 * {
     font-family: Helvetica;
-    font-size: 22px;
     color: seashell;
 }
 
 body {
     background-color: black;
+}
+
+h2 {
+    font-size: x-large;
+}
+
+h3 {
+    font-size: large;
 }
 
 /* Nav Bar / Header Styling */
@@ -41,6 +48,26 @@ body {
 }
 
 /* Hero Styling */
+
+div.missionhero {
+    height: 700px;
+    width: 1200px;
+    background-image: url(../img/img-mission-background.jpg);
+    display: flex; /* Enables Flex Box */
+    flex-direction: column; /* stacks the two items ontop of each other */
+    justify-content: center; /* centers vertically */
+    align-items: center; /*centers horizontally */
+    text-align: center; /* makes sure multi line text stays centered*/
+}
+h2.mission,h4.mission { 
+    margin: 10px;
+}
+
+div.missionbarhero {
+    background-color: black;
+    padding: 20px;
+    width: 1200px;
+}
 
 
 /* Footer Styling */
