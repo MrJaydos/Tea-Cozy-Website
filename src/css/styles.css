@@ -48,15 +48,18 @@ h3 {
 }
 
 /* Hero Styling */
-
+section.hero {
+    display: flex;
+    justify-content: center;
+}
 div.missionhero {
     height: 700px;
     width: 1200px;
     background-image: url(../img/img-mission-background.jpg);
     display: flex; /* Enables Flex Box */
     flex-direction: column; /* stacks the two items ontop of each other */
-    justify-content: center; /* centers vertically */
-    align-items: center; /*centers horizontally */
+    justify-content: center; /* centers horizontally */
+    align-items: center; /*centers Verticaly */
     text-align: center; /* makes sure multi line text stays centered*/
 }
 h2.mission,h4.mission { 
