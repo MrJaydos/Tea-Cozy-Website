@@ -14,11 +14,18 @@ body {
 
 h2 {
     font-size: x-large;
+    
 }
 
 h3 {
     font-size: large;
+    
 }
+
+h2,h3,h4 {
+    margin: 10px;
+}
+
 
 /* Nav Bar / Header Styling */
 
@@ -65,9 +72,9 @@ div.missionhero {
     align-items: center; /*centers Verticaly */
     text-align: center; /* makes sure multi line text stays centered*/
 }
-h2.mission,h4.mission { 
+/*h2.mission,h4.mission { 
     margin: 10px;
-}
+}*/
 
 div.missionbarhero {
     background-color: black;
@@ -76,7 +83,7 @@ div.missionbarhero {
 }
 
 /* Card Styling */
-section.cardcontainer {
+section.cardsection {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -84,17 +91,24 @@ section.cardcontainer {
     text-align: center;
     min-width: 1000px;
     max-width: 1000px;
+    margin: 50px auto;
 
+}
+div.cardcontainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 div.card {
     display: flex;
     flex-direction: column;
-    margin: 0px;
 }
+
 img.cardimg {
     width: 300px;
     height: 200px;
-    
+    margin: 10px;
     
 }
 
