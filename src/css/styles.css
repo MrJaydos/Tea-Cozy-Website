@@ -40,5 +40,6 @@ body {
 /* Footer Styling */
 
 p.footer {
+    padding-left: 20px;
     text-align: left;
 }
