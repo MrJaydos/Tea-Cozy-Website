@@ -13,13 +13,24 @@ body {
 /* Nav Bar / Header Styling */
 
 .navbar {
-
+    text-decoration: underline;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    display: inline-block;
+    flex-direction: flex-end;
+    padding-right: 10px;
 }
 .logo {
     height: 50px;
 }
-header {
-    height: 69px;
+.header {
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: left;
+    justify-content: space-between;
     border: 1px solid seashell;
 }
 
