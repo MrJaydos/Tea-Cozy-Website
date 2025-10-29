@@ -22,8 +22,17 @@ h3 {
     
 }
 
-h2,h3,h4 {
+h2,h3,h4,h5 {
     margin: 10px;
+}
+
+p,ul {
+    font-size: 22px;
+
+}
+
+h2,h3,h4,h5,p,ul {
+opacity: 0.9;
 }
 
 
@@ -149,6 +158,18 @@ div.darkcard {
     
     
 }
+
+/* Contact Us Styling */
+section.contactus {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+h5 {
+    padding: 10px;
+}
+
 /* Footer Styling */
 
 p.footer {
