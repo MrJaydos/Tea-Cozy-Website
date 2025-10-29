@@ -13,12 +13,12 @@ body {
 }
 
 h2 {
-    font-size: x-large;
+    font-size: xx-large;
     
 }
 
 h3 {
-    font-size: large;
+    font-size: x-large;
     
 }
 
@@ -72,9 +72,6 @@ div.missionhero {
     align-items: center; /*centers Verticaly */
     text-align: center; /* makes sure multi line text stays centered*/
 }
-/*h2.mission,h4.mission { 
-    margin: 10px;
-}*/
 
 div.missionbarhero {
     background-color: black;
@@ -112,7 +109,46 @@ img.cardimg {
     
 }
 
+/* Locations Styling */
 
+div.darkcardsection {
+    background-image: url(../img/img-locations-background.jpg);
+    max-height: 500px;
+    min-height: 500px;
+    width: 1200px;
+    margin: 0px auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+div.darkcardsection h2 {
+    margin-bottom: 15px;
+}
+
+div.darkcardholder {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+div.darkcard {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 250px;
+    background-color: black;
+    opacity: 1;
+    text-align: center;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    
+}
 /* Footer Styling */
 
 p.footer {
